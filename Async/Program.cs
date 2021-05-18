@@ -13,6 +13,12 @@ namespace Async
             EventBasedAsynchronousPatternDemo.Run();
             TaskBasedAsynchronousPatternDemo.Run();
 
+            var task = TaskStateMachineDemo.Run();
+            while (!task.IsCompleted)
+            {
+                System.Threading.Thread.Sleep(10);
+            }
+
             Console.WriteLine("Finished!");
         }
     }
