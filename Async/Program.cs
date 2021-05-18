@@ -9,6 +9,9 @@ namespace Async
             Console.WriteLine("Hello World!");
 
             ThreadDemo.Run();
+            AsynchronousProgrammingModelDemo.Run();
+
+            Console.WriteLine("Finished!");
         }
     }
 }
