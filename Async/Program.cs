@@ -7,6 +7,8 @@ namespace Async
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            ThreadDemo.Run();
         }
     }
 }
