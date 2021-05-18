@@ -11,6 +11,7 @@ namespace Async
             ThreadDemo.Run();
             AsynchronousProgrammingModelDemo.Run();
             EventBasedAsynchronousPatternDemo.Run();
+            TaskBasedAsynchronousPatternDemo.Run();
 
             Console.WriteLine("Finished!");
         }
