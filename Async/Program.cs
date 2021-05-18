@@ -10,6 +10,7 @@ namespace Async
 
             ThreadDemo.Run();
             AsynchronousProgrammingModelDemo.Run();
+            EventBasedAsynchronousPatternDemo.Run();
 
             Console.WriteLine("Finished!");
         }
